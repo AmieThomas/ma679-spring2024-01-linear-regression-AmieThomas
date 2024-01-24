@@ -1,6 +1,6 @@
 ---
 title: "Regression"
-author: "Your Name"
+author: "Amie Thomas"
 date: "2022-12-21"
 output: html_document
 ---
@@ -43,7 +43,7 @@ show_code <- TRUE
 ## In class activity
 ### Ames Housing data
 
-Please take a look at the Ames Hoursing data.
+Please take a look at the Ames Housing data.
 ```{r,echo=show_code}
 library(AmesHousing)
 ?ames_raw
@@ -410,11 +410,21 @@ Please write your answer in full sentences.
 
 Your code:
 ```{r,echo=TRUE}
-#
-#
+install.packages("ISLR2")
+library(ISLR2)
+View(Auto)
+
+auto <- lm(mpg ~ horsepower, Auto)
+summary(auto)
+
 ```
 
 Your answer:
+i. 
+
+ii
+
+
 
 ~~~
 Please write your answer in full sentences.
